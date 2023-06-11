@@ -6,102 +6,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <title>Document</title>
 </head>
 <body>
-    <header> 
-    <div class="logo">
-        <a href="#">Travel Adventures</a>
+  <div class="container">
+    <p>Travel Adventure,Kenya's leading Tour & Travel Company</p>
+  </div>
+  <div class="logo">
+    <p>Travel Adventures</p>
     </div>
-   <!--header section--> 
-   <section>
     <div class="navbar">
         <a href="#">Home</a>
-
         <div class="dropdown">
-            <button>Destinations</button>
+            <button class="btn">Destination</button>
             <div class="dropdown-content">
                 <div class="row">
                     <div class="column">
                         <h5>Africa</h5>
                         <a href="#">Kenya</a>
-                        <a href="#">Tanzania</a>
                         <a href="#">Uganda</a>
-                        <a href="#">South Africa</a>
-                    </div>
-                    <div class="column">
-                        <h5>Europe</h5>
-                        <a href="#">paris</a>
-                        <a href="#">London</a>
-                        <a href="#">paris</a>
-                        <a href="#">Rome</a>
+                        <a href="#">Tanzania</a>
                     </div>
                     <div class="column">
                         <h5>Middle East</h5>
-                        <a href="#">Cairo</a>
-                        <a href="#">Dubai</a>
-                        <a href="#">Jerusalem</a>
+                        <a href="#">Indonesia</a>
+                        <a href="#">Afghanistan</a>
+                        <a href="#">United Arabs</a>
+                    </div>
+                    <div class="column">
+                        <h5>Europe</h5>
+                        <a href="#">Rome</a>
+                        <a href="#">London</a>
+                        <a href="#">Berlin</a>
+                        <a href="#">Amsterdam</a>
+                    </div>
+                    <div class="column">
+                      <h5>USA</h5>
+                      <a href="#">New York</a>
+                      <a href="#">Los Angeles</a>
+                      <a href="#">Chicago</a>
+                      <a href="#">Seattle</a>
                     </div>
                 </div>
             </div>
-            
         </div>
         <div class="dropdown">
-            <button>Local Packages</button>
+            <button class="btn">Safaris Packages</button>
             <div class="dropdown-content">
                 <div class="row">
-                <div class="column">
-                    <h5>Beach packages</h5>
-                    <a href="#">Mombasa</a>
-                    <a href="#">Diani</a>
-                    <a href="#">Malindi</a>
+                    <div class="column">
+                        <a href="#"><img src="kenya.jpg" alt="" width="100%"></a>
+                        <div class="text1">Kenya</div>
+                       <button class="button"><a href="#">View Packages</a></button>
+                    </div>
+                    <div class="column">
+                        <a href="#"><img src="tanzania.jpg" alt="" width="110%"></a>
+                        <div class="text2">Tanzania</div>
+                        <button class="button"><a href="#">View Packages</a></button>
+                    </div>
+                    <div class="column">
+                        <a href="#"><img src="uganda.jpg" alt="" width="110%"></a>
+                        <div class="text3">Uganda</div>
+                        <button class="button"><a href="#">View Packages</a></button>
+                    </div>
                 </div>
-                <div class="column">
-                    <h5>Bush Packages</h5>
-                    <a href="#">Samburu</a>
-                    <a href="#">Amboseli</a>
-                    <a href="#">Tsavo</a>
-                </div>
-                <div class="column">
-                    <h5>Weekend Gateaway</h5>
-                    <a href="#">Naivasha</a>
-                    <a href="#">Nakuru</a>
-                    <a href="#">Mt.Kenya</a>
+            
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Local Packages</button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h5>Beach Packages</h5>
+                        <a href="#">Mombasa</a>
+                        <a href="#">Malindi</a>
+                        <a href="#">Lamu</a>
+                        <a href="#">Diani</a>
+                    </div>
+                    <div class="column">
+                        <h5>Bush Packages</h5>
+                        <a href="#">Amboseli</a>
+                        <a href="#">Tsavo</a>
+                        <a href="#">Maasai Mara</a>
+                        <a href="#">Samburu</a>
+                    </div>
+                    <div class="column">
+                            <h5>Weekend Gateaways</h5>
+                            <a href="#">Nanyuki</a>
+                            <a href="#">Naivasha</a>
+                            <a href="#">Mt.Kenya</a>
+                    
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <a href="#">Contact us</a>
+        <a href="#">Contact Us</a>
     </div>
-    </section>
-    <div class="search" >
-        <input type="text" placeholder="Travels" name="search">
-        <br>
-        <br>
+
+    <div class="container1" style="display: inline-block;">
+        <input type="text" placeholder="Adventure...">
+        <input type="Submit" value="search">   
     </div>
-        <div class="main">
-            <img src="coast.jpg">
-            <div class="center">Beach deals</div>
-            <div class="text">Beach gateaway <br>to the kenyan coast</div>
-            <p class="para"><a href="#">Book Now</a></p>
+    <!--create a slider-->
+    <div class="slider">
+        <figure>
+            <div class="slide">
+                <img src="dubai.jpeg" alt="" >
+                <div class="text4">
+                    <h4>Dubai package</h4>
+                    <p>Vacation package to the city of gold</p>
+                    <button class="btn"><a href="#">Book Now</a></button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="coast.jpg" alt="" >
+                <div class="text5">
+                    <h4>Beach package</h4>
+                    <p>Beach gateaway to the coast</p>
+                    <button class="btn"><a href="#">Book Now</a></button>
+                </div>
+         </div>
+        </figure>
+    </div>
+    <div class="container2">
+        <h3>popular <span> Kenya destination</span></h3>
+        <div class="tl">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        
+        <p>Explore the stunning landscapes and diverse widlife of kenya</p>
+    </div>
+    </div>
+    <div class="spe-3">
+        <div class="row1">
+            <div class="column1" id="image">
+                <a href="#"><img src="mombasa.png" alt="" ></a>
+                <button class="text6">Mombasa</button>
+            </div>
+            <div class="column1" id="image" >
+               <a href="#"><img src="Mtkenya.jpg" alt="" ></a>
+                <button class="text7">Mt Kenya</button>
+            </div>
+            <div class="column1" id="image">
+                <a href="#"><img src="amboseli.jpg" alt="" ></a>
+                <button class="text8">Amboseli</button>
+            </div>
+            <div class="column1">
+                <a href="#"><img src="nakuru.jpg" alt=""></a>
+                <button class="text9">Nakuru</button>
+            </div>
         </div>
+        <div class="space"></div>
+    </div>
+   <!--Team section-->
+   <h2 class="team-heading">Team <span>Members</span></h2>
+   <div class="team">
+<div class="teamcard">
+    <img src="person.png" alt="">
+    <div class="cardcontent">
+        <h1>Mary Ann</h1>
+        <p>Manager</p>
+    </div>
+
+</div>
+<div class="teamcard">
+    <img src="person2.jpg" alt="">
+    <div class="cardcontent">
+        <h1>Sarah Mike</h1>
+        <p>Front Desk</p>
+    </div>
+</div>
+<div class="teamcard">
+    <img src="person3.jpg" alt="" >
+    <div class="cardcontent">
+        <h1>Anna Kay</h1>
+        <p>Accountant</p>
+    </div>
+</div>
+</div>
+ 
+   <h2 class="contact">Contact</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your Name..." id="name" required>   
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email..." required>   
+        </div>
+        <div class="form-group">
+            <label for="textarea">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>  
+        </div>
+        <div class="form-group">
+            <input type="submit" id="submit" value="submit">   
+        </div>
+    </form>
+    <footer>
+        
+            <div class="footer">
+                <h1>About Us</h1>
+                <p>Welcome to Travel Adventures, your ultimate destination for discovering amazing travel <br>experiences around the world. <br>Whether you're a seasoned traveler or just starting your journey, we are here to inspire, <br>
+                    inform, and assist you in planning your next adventure.</p>          
+
+            </div>
+            <div class="links">
+                <h1>Site Links</h1>
+                   <a href="#">Home</a>
+                <a href="#">Destination</a>
+                <a href="#">Local Packages</a>
+                <a href="#">Contact Us</a>
+            </div>
+             <div class="icons">
+                <h1>Follow Us</h1>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                
+             </div>
+           
+
+    </footer>
     
-</section>
-</header>
-        <div class="title">
-            <h2>Popular
-                <span>Kenya Destination</span>
-            </h2>
-            <div class="titleline">
-                <div class="title-1"></div>
-                <div class="title-2"></div>
-                <div class="title-3"></div>
-            </div>
-            <p>Explore the stunning landscapes and diverse widlife of kenya,from national reserve safaris to trditional swahili culture.<br>immerse yourself in the unique experiences this destination has to offer</p>
-        </div>
-    </body>
-    </html>
+
+</body>
+</html>
+    
+
+   
+
     
    
