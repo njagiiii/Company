@@ -65,7 +65,7 @@ body{
     width:25%;
     padding:10px;
     display: block;
-    border-right: 0px solid #eaeaea
+  
 }
 .column a{
     float: none;
@@ -139,16 +139,14 @@ body{
     width:100%;
     padding: 25px 16px;
 }
-input[type="text"]{
+.search{
     margin-left: 700px;
     margin-top: 5px;
-
-}
-input[type="text"]{
     width: 300px;
     padding: 10px 20px;
 }
-input[type="text"]:focus{
+
+.search:focus{
     height: 35px;
     border-radius: 15px;
     outline-color:darkgreen;
@@ -277,7 +275,7 @@ input[type="text"]:focus{
     background-color: #fafafa;
 }
 .container2 h3{
-    margin-left: 730px;
+    margin-left: 680px;
     text-transform: capitalize;
     font-size: 45px;
 }
@@ -286,7 +284,7 @@ span{
 }
 .tl{
     margin-top: -30px;
-    margin-left: 850px;
+    margin-left: 830px;
 }
 .div1{
     width: 80px;
@@ -312,7 +310,7 @@ span{
     display: inline-block;
 }
 .tl p{
-  margin-left: -100px;
+  margin-left: -120px;
   color: #888;
   font-weight: 400;
   font-size: 20px;
@@ -340,46 +338,49 @@ h6{
     top: 155%;
     left: 7%;
    color: black;
-   font-size: 40px;
+   font-size: 24px;
    border: none;
    outline: none;
    border-radius: 10px;
    padding: 10px 12pxpx;
+   background-color: white;
 }
 .text7{
     position: absolute;
     top: 155%;
     left: 32%;
     color: black;
-   font-size: 40px;
+   font-size: 24px;
    border: none;
    outline: none;
    border-radius: 10px;
    padding: 10px 12pxpx;
+   background-color: white;
 }
 .text8{
     position: absolute;
     top: 155%;
     left: 58%;
     color: black;
-   font-size: 30px;
-   font-size: 40px;
+   font-size: 24px;
    border: none;
    outline: none;
    border-radius: 10px;
-   padding: 10px 12pxpx;
+   padding: 10px 12px;
+   background-color: white;
 }
 .text9{
     position: absolute;
     top: 155%;
     left: 85%;
     color: black;
-   font-size: 40px;
+   font-size: 24px;
    border: none;
    outline: none;
    border-radius: 10px;
    padding: 10px 12pxpx;
    background-color:none;
+   background-color: white;
 }
 .row1{
     clear: both;
@@ -393,6 +394,51 @@ h6{
 .spe-3 .space{
     padding: 50px;
 }
+ .cont {
+    box-shadow: 4px 4px 5px #aaaaaa;
+    padding: 35px ;
+    margin-top: -15px;
+    width: 358px;
+    margin-left: 50px;
+   
+}
+.imagee{
+    margin-top: 26px;
+}
+.spe1 {
+    box-shadow: 4px 4px 5px #aaaaaa;
+    padding: 35px ;
+    margin-top: -15px;
+    width: 358px;
+    margin-left: 50px;
+   
+}
+.spe2 {
+    box-shadow: 4px 4px 5px #aaaaaa;
+    padding: 35px ;
+    margin-top: -15px;
+    width: 358px;
+    margin-left: 50px;
+   
+}
+.spe3 {
+    box-shadow: 4px 4px 5px #aaaaaa;
+    padding: 35px ;
+    margin-top: -15px;
+    width: 358px;
+    margin-left: 50px;
+   
+}
+.aria{
+    font-size: 20px;
+    
+}
+.sp{
+    color: grey;
+}
+.imageee{
+    margin-top: 7px;
+}
 .team{
     display: flex;
     flex-wrap: wrap;
@@ -401,13 +447,36 @@ h6{
     justify-content: center;
     background-color: #eff5fb;
 }
+.tl .plus{
+    margin-left: -530px;
+    font-size: 23px;
+}
+.spe-4{
+    margin-top: 50px;
+}
+.spe-4 p{
+    margin-left: 120px;
+   
+}
+.spe-4 .para{
+    font-size: 25px;
+}
+.spe-4 .parabtn{
+    margin-left:130px ;
+    background-color: #e78f22;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
 .team-heading{
     margin-left: 800px;
-    margin-top: 200px;
+    margin-top: 80px;
     font-size: 45px;
 }
 .teamcard{
-    padding: 10px 80px;
+    padding: 10px 70px;
     margin-top: 0px;
 }
 .teamcard h1{
@@ -417,21 +486,26 @@ h6{
     margin-left: 215px;
     font-size: 25px;
 }
-
+form{
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    
+}
 .form-group{
     margin-bottom: 15px;
     margin-left: 700px;
     margin-top: 20px;
+    font-size: 30px;
+    
 }
 .form-group label{
   display: block;
-  padding: 15px;
-   font-size: 30px;
+  padding: 10px;
+   font-size: 20px;
 }
-h2{
+.contact{
     margin-left: 800px;
-    font-size: 50px; 
-    margin-top:50px;
+    font-size: 30px; 
+    margin-top:130px;
 }
 .form-group, input[type="email"]{
     padding: 20px 16px;
@@ -450,10 +524,18 @@ h2{
    padding: 20px 16px;
    width: 500px;
 }
+input:focus{
+     height: 30px;
+     border-radius: 25px;
+     outline: darkgreen;
+}
+
+
 footer{
-   height: 350px;
+    height: 350px;
    display: flex;
    background-color: black;
+   
 }
 footer .footer{
     margin-left: 100px;
